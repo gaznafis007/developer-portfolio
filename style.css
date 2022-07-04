@@ -89,3 +89,44 @@ footer{
     text-align: center;
     color: rgb(99, 99, 99);
 }
+@media  only screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+    }
+    .section{
+        width: 100%;
+    }
+    .banner{
+        background-image: none;
+    }
+    .ring{
+        background-image: none;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    a{
+        font-size: 12px;
+    }
+    .cards{
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    .card{
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .card-blue{
+        border-left-color: #fa6f5a;
+    }
+    .card-red{
+        border-left-color: blue
+    }
+}
